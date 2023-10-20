@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/xText"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="false"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="125dp"
+        android:layout_marginEnd="130dp"
+        android:layout_marginStart="130dp"
+        android:background="#D80606"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:shape="oval"
+        android:text="X Axis:"
+        android:textColor="#F3F0EB"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/yText"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/xValue"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="false"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="277dp"
+        android:layout_marginEnd="130dp"
+        android:background="#6BB811"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:text="Y Axis:"
+        android:textColor="#F3F0EB"
+        android:textSize="24sp"
+        tools:ignore="TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/zText"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/yValue"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="428dp"
+        android:layout_marginEnd="130dp"
+        android:layout_marginStart="130dp"
+        android:background="#0A22A1"
+        android:text="Z Axis:"
+        android:textColor="#F3F0EB"
+        android:textSize="24sp"
+        android:layout_centerVertical="false"
+        android:gravity="center|center_horizontal|center_vertical"/>
+
+    <TextView
+        android:id="@+id/xValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/xText"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="false"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="130dp"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:text="TextView"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/yValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/yText"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="false"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginEnd="130dp"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:text="TextView"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/zValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/zText"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="false"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginEnd="130dp"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:text="TextView"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/shakeStatus"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/zValue"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="false"
+        android:layout_marginTop="600dp"
+        android:layout_marginEnd="130dp"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:text=""
+        android:textSize="24sp" />
+
+</RelativeLayout>
